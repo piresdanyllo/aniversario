@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #db901e;
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 24px;
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.efeito {
+  opacity: 0;
+  animation-name: fadeOut;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.primeiro {
+  animation-delay: 2s;
+}
+
+.segundo {
+  animation-delay: 4s;
+}
+
+.terceiro {
+  animation-delay: 6s;
+}
+
+.quarto {
+  animation-delay: 8s;
+}
+
+.quinto {
+  animation-delay: 10s;
+}
+
+.sexto {
+  animation-delay: 12s;
+}
+
+.setimo {
+  animation-delay: 14s;
+}
+
+img {
+  width: 200px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
